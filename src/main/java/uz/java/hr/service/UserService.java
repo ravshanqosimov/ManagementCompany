@@ -35,8 +35,6 @@ public class UserService {
     @Autowired
     PasswordEncoder passwordEncoder;
     @Autowired
-    JavaMailSender javaMailSender;
-    @Autowired
     RoleRepository roleRepository;
     @Autowired
     AuthenticationManager authenticationManager;

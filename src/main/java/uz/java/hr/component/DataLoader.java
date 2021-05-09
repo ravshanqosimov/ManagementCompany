@@ -27,8 +27,8 @@ public class DataLoader implements CommandLineRunner {
     @Autowired
     CompanyRepository companyRepository;
 
-    @Value("${spring.datasource.initialization-mode}")
-    private String initialMode;
+        @Value("${spring.datasource.initialization-mode}")
+        private String initialMode;
 
 
     @Override

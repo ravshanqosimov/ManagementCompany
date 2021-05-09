@@ -35,7 +35,6 @@ public class MyAuthService implements UserDetailsService {
     TasksRepository  taskRepository;
 
     public ApiResponse login(LoginDto loginDto) {
-
         try {
             Authentication authenticate =
                     authenticationManager.authenticate(
